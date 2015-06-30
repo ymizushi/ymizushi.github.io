@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ymizushiのblog</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on ymizushiのblog</description>
+    <title>ymizushi</title>
+    <link>http://ymizushi.github.io/</link>
+    <description>Recent content on ymizushi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>utf-8</language>
     <lastBuildDate>Tue, 30 Jun 2015 13:50:30 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://ymizushi.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>about</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://ymizushi.github.io/about/</link>
       <pubDate>Tue, 30 Jun 2015 13:50:30 +0900</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://ymizushi.github.io/about/</guid>
       <description>
 
 &lt;h2 id=&#34;i-ama-a-hero:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;I ama a hero.&lt;/h2&gt;
@@ -25,10 +25,10 @@
     
     <item>
       <title>welcome</title>
-      <link>http://localhost:1313/post/welcome/</link>
+      <link>http://ymizushi.github.io/post/welcome/</link>
       <pubDate>Tue, 30 Jun 2015 13:44:52 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/welcome/</guid>
+      <guid>http://ymizushi.github.io/post/welcome/</guid>
       <description>&lt;p&gt;hogehogheohgoehgoeh
 hogehogheohgoehgoeh
 hogehogheohgoehgoeh
