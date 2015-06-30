@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on ymizushiのエンジニアblog</title>
-    <link>http://ymizushi.github.io/post/</link>
-    <description>Recent content in Posts on ymizushiのエンジニアblog</description>
+    <title>Posts on ymizushiのblog</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on ymizushiのblog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>un-us</language>
+    <language>utf-8</language>
     <lastBuildDate>Tue, 30 Jun 2015 13:44:52 +0900</lastBuildDate>
-    <atom:link href="http://ymizushi.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>welcome</title>
-      <link>http://ymizushi.github.io/post/welcome/</link>
+      <link>http://localhost:1313/post/welcome/</link>
       <pubDate>Tue, 30 Jun 2015 13:44:52 +0900</pubDate>
       
-      <guid>http://ymizushi.github.io/post/welcome/</guid>
+      <guid>http://localhost:1313/post/welcome/</guid>
       <description>&lt;p&gt;hogehogheohgoehgoeh
 hogehogheohgoehgoeh
 hogehogheohgoehgoeh
