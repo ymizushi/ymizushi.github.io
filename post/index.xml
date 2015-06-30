@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Posts on ymizushiのエンジニアblog</title>
     <link>http://ymizushi.github.io/post/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in Posts on ymizushiのエンジニアblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>un-us</language>
     <lastBuildDate>Tue, 30 Jun 2015 13:44:52 +0900</lastBuildDate>
