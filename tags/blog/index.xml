@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on ymizushi</title>
+    <link>http://ymizushi.github.io/tags/blog/</link>
+    <description>Recent content in Blog on ymizushi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>utf-8</language>
+    <lastBuildDate>Tue, 30 Jun 2015 13:50:30 +0900</lastBuildDate>
+    <atom:link href="http://ymizushi.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>blogを移設</title>
+      <link>http://ymizushi.github.io/posts/20150630/</link>
+      <pubDate>Tue, 30 Jun 2015 13:50:30 +0900</pubDate>
+      
+      <guid>http://ymizushi.github.io/posts/20150630/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://ymizushi.hateblo.jp/&#34; title=&#34;真面目に、強く、上品に&#34;&gt;http://ymizushi.hateblo.jp/&lt;/a&gt; からblogを移行しました。
+以後よろしくお願いします。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
