@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ymizushi</title>
-    <link>http://ymizushi.github.io/</link>
-    <description>Recent content on ymizushi</description>
+    <title>Posts on ymizushi</title>
+    <link>http://ymizushi.github.io/posts/</link>
+    <description>Recent content in Posts on ymizushi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>utf-8</language>
     <lastBuildDate>Tue, 30 Jun 2015 13:50:30 +0900</lastBuildDate>
-    <atom:link href="http://ymizushi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://ymizushi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>blogを移設</title>
