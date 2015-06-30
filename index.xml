@@ -10,16 +10,12 @@
     <atom:link href="http://ymizushi.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>about</title>
+      <title>blogを移設</title>
       <link>http://ymizushi.github.io/about/</link>
       <pubDate>Tue, 30 Jun 2015 13:50:30 +0900</pubDate>
       
       <guid>http://ymizushi.github.io/about/</guid>
-      <description>
-
-&lt;h2 id=&#34;i-ama-a-hero:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;I ama a hero.&lt;/h2&gt;
-
-&lt;p&gt;hero&lt;/p&gt;
+      <description>&lt;p&gt;自分の場合だと、静的ページの方が管理が楽だと思ったので、hugoで管理することにしました。&lt;/p&gt;
 </description>
     </item>
     
