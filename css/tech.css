@@ -3,3 +3,45 @@
  * https://github.com/ymizushi/tech.
  */
 
+/*
+ * topbar
+ *
+ * Flexible banner for housing site name, intro, and "footer" content. Starts
+ * out above content in mobile and later moves to the side with wider viewports.
+ */
+
+.topbar {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: rgba(255,255,255,.5);
+  background-color: #202020;
+}
+
+/* topbar links */
+.topbar a {
+  color: #fff;
+}
+
+/* About section */
+.topbar-about h1 {
+  color: #fff;
+  margin-top: 0;
+  font-family: "Abril Fatface", serif;
+  font-size: 3.25rem;
+}
+
+/* topbar nav */
+.topbar-nav {
+  padding-left: 0;
+  list-style: none;
+}
+.topbar-nav-item {
+  display: block;
+}
+a.topbar-nav-item:hover,
+a.topbar-nav-item:focus {
+  text-decoration: underline;
+}
+.topbar-nav-item.active {
+  font-weight: bold;
+}
