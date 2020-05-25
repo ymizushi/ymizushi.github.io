@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ymizushiの技術メモ</title>
+    <link>http://ymizushi.github.io/tech-memo/</link>
+    <description>Recent content on ymizushiの技術メモ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>utf-8</language>
+    <lastBuildDate>Sun, 24 May 2020 16:29:46 +0900</lastBuildDate>
+    
+	<atom:link href="http://ymizushi.github.io/tech-memo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Memo 20200524</title>
+      <link>http://ymizushi.github.io/tech-memo/memo-20200524/</link>
+      <pubDate>Sun, 24 May 2020 16:29:46 +0900</pubDate>
+      
+      <guid>http://ymizushi.github.io/tech-memo/memo-20200524/</guid>
+      <description>やったこと  Rust Second Edition https://doc.rust-jp.rs/book/second-edition/ch12-03-improving-error-handling-and-modularity.html まで DE10-Lite本 第9章まで  理解したこと Rustでの #[inline] の意味 Rust では #[inline] 及び #[inline(always)] で 関数呼び出しをインライン化することが出来る。 alwaysでは常にインライン化されるが、inline はインライン化の可否をコンパイラが自動で決定する。
+Verilog Verilogの文法
+理解していないこと   Rust で Either モナドを作る話 https://qiita.com/morikuni/items/8bdb39119379d60f628c
+   </description>
+    </item>
+    
+    <item>
+      <title>Memo 20200523</title>
+      <link>http://ymizushi.github.io/tech-memo/memo-20200523/</link>
+      <pubDate>Sat, 23 May 2020 22:02:31 +0900</pubDate>
+      
+      <guid>http://ymizushi.github.io/tech-memo/memo-20200523/</guid>
+      <description>やること  https://doc.rust-jp.rs/book/second-edition/ 16章まで終わらせる  よくわからなかったこと  https://doc.rust-jp.rs/book/second-edition/ch15-06-reference-cycles.html  平行性のライフタイム、借用あたりは理解しづらい    </description>
+    </item>
+    
+    <item>
+      <title>ymizushi.hateblo.jp と ymizushi.github.io/tech-memo の使い分けについて</title>
+      <link>http://ymizushi.github.io/tech-memo/comparison-between-hateblog-and-hugo/</link>
+      <pubDate>Sat, 23 May 2020 21:57:46 +0900</pubDate>
+      
+      <guid>http://ymizushi.github.io/tech-memo/comparison-between-hateblog-and-hugo/</guid>
+      <description>両方とも技術系の記事を載せる場所ですが、hateblo の方はある程度まとまった記事、ymizushi.github.io/tech-memo の方はもっと細かい粒度の作業ログなどを載せています。</description>
+    </item>
+    
+  </channel>
+</rss>

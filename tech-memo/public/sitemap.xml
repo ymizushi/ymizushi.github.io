@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://ymizushi.github.io/tech-memo/memo-20200524/</loc>
+    <lastmod>2020-05-24T16:29:46+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ymizushi.github.io/tech-memo/</loc>
+    <lastmod>2020-05-24T16:29:46+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ymizushi.github.io/tech-memo/memo-20200523/</loc>
+    <lastmod>2020-05-23T22:02:31+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ymizushi.github.io/tech-memo/comparison-between-hateblog-and-hugo/</loc>
+    <lastmod>2020-05-23T21:57:46+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ymizushi.github.io/tech-memo/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://ymizushi.github.io/tech-memo/tags/</loc>
+  </url>
+  
+</urlset>
