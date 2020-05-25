@@ -17,7 +17,12 @@
       <pubDate>Mon, 25 May 2020 16:25:54 +0900</pubDate>
       
       <guid>http://ymizushi.github.io/tech-memo/memo-20200525/</guid>
+<<<<<<< HEAD
       <description>やったこと  denite.nvim の不具合を解消  Desktop は正常動作するが Laptop の Denite が正常動作しなかった  pluginを起動するとハングする   原因を追っていくと、Pluginのバージョンが古いことがわかったのでキャッシュをクリアして、再インストールすることで解決   Rust 99 Problem の P01,P02を解いた  理解したこと 理解していないこと       </description>
+=======
+      <description>やったこと  denite.nvim の不具合を解消  Desktop は正常動作するが Laptop の Denite が正常動作しなかった  pluginを起動するとハングする   原因を追っていくと、Pluginのバージョンが古いことがわかったのでキャッシュをクリアして、再インストールすることで解決    理解したこと 理解していないこと   Rust で Either モナドを作る話 https://qiita.com/morikuni/items/8bdb39119379d60f628c
+   </description>
+>>>>>>> 6238535dfb8cee3dda69dbb0f84faa62897fc63d
     </item>
     
     <item>
