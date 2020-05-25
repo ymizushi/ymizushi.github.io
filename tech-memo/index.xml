@@ -6,10 +6,20 @@
     <description>Recent content on ymizushiの技術メモ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>utf-8</language>
-    <lastBuildDate>Sun, 24 May 2020 16:29:46 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2020 16:25:54 +0900</lastBuildDate>
     
 	<atom:link href="http://ymizushi.github.io/tech-memo/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Memo 20200525</title>
+      <link>http://ymizushi.github.io/tech-memo/memo-20200525/</link>
+      <pubDate>Mon, 25 May 2020 16:25:54 +0900</pubDate>
+      
+      <guid>http://ymizushi.github.io/tech-memo/memo-20200525/</guid>
+      <description>やったこと  denite.nvim の不具合を解消  Desktop は正常動作するが Laptop の Denite が正常動作しなかった  pluginを起動するとハングする   原因を追っていくと、Pluginのバージョンが古いことがわかったのでキャッシュをクリアして、再インストールすることで解決    理解したこと 理解していないこと   Rust で Either モナドを作る話 https://qiita.com/morikuni/items/8bdb39119379d60f628c
+   </description>
+    </item>
     
     <item>
       <title>Memo 20200524</title>
