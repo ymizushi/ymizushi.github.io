@@ -6,10 +6,46 @@
     <description>Recent content on ymizushiの技術メモ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>utf-8</language>
-    <lastBuildDate>Mon, 25 May 2020 16:25:54 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2020 11:47:44 +0900</lastBuildDate>
     
 	<atom:link href="http://ymizushi.github.io/tech-memo/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>memo</title>
+      <link>http://ymizushi.github.io/tech-memo/2020-06-14-memo/</link>
+      <pubDate>Sun, 14 Jun 2020 11:47:44 +0900</pubDate>
+      
+      <guid>http://ymizushi.github.io/tech-memo/2020-06-14-memo/</guid>
+      <description>Box  データはヒープに格納 コンパイル時にはサイズを知ることができない型があり、正確なサイズを要求する文脈でその型の値を使用する時 多くのデータがあり、所有権を転送したいが、その際にデータがコピーされないようにしたい時 値を所有する必要があり、特定の型ではなく特定のトレイトを実装する型であることのみ気にかけている時  Rc  ヒープにプログラムの複数箇所で読む何らかのデータを確保したいけれど、 コンパイル時にはどの部分が最後にデータを使用し終わるか決定できない時 シングルスレッドでしか動作しない 単独の値に複数の所有者を持たせたいとき Rcでラップした値は不変  Cell https://blog.iany.me/2019/02/rust-cell-and-refcell/#:~:text=The%20difference%20is%20how%20they,mutable%20and%20immutable%20reference%20borrowing.
+ 所有権の移動を copy もしくは move で解決している get/set メソッドは値をコピーする（ラップする値が Copy トレイトを実装している必要がある)  take/set は ラップした値をmoveすることで値を取り出すことができる。 move しているので move前の束縛は使用することができない。
+Cell は 参照を使って値を取り出すことが出来ない.
+RefCell  Rcと異なり、RefCell型は、保持するデータに対して単独の所有権を表します。で  RefCellとBox T の違い 参照とBoxでは、借用規則の不変条件は、コンパイル時に強制されています。RefCellでは、 これらの不変条件は、実行時に強制されます。参照でこれらの規則を破ったら、コンパイルエラーになりました。 RefCellでこれらの規則を破ったら、プログラムはパニックし、終了します。
+Rcと同様にシングルスレッドで使う前提
+ Rcは、同じデータに複数の所有者を持たせてくれる BoxとRefCellは単独の所有者。 Boxでは、不変借用も可変借用もコンパイル時に精査できる Rcでは不変借用のみがコンパイル時に精査できる RefCellでは、不変借用も可変借用も実行時に精査される RefCellは実行時に精査される可変借用を許可するので、RefCellが不変でも、 RefCell内の値を可変化できる。  method
+&amp;ndash; borrow_mut
+ 表にしてみた。 | Rc | Right align | Center align | |:&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;:|:&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;:| | This | This | This | | column | column | column | | will | will | will | | be | be | be | | left | right | center | | aligned | aligned | aligned |</description>
+    </item>
+    
+    <item>
+      <title>Rust初心者が陥りがちなコーディングとその対策</title>
+      <link>http://ymizushi.github.io/tech-memo/2020-06-07-rust-anti-coding-pattern/</link>
+      <pubDate>Sun, 07 Jun 2020 03:22:26 +0900</pubDate>
+      
+      <guid>http://ymizushi.github.io/tech-memo/2020-06-07-rust-anti-coding-pattern/</guid>
+      <description>はじめに Rust では Moveや借用、ライフといった概念が登場し、GAのある言語ではイディオムとして通用するコーディングスタイルのままコードを書くと、コンパイルさえ通らない、といったことが頻発します。
+そこで、ここではRust初心者が陥りがちなコーディングスタイルとその対策について記します。
+コンストラクタ内で作ったインスタンスの参照を返す struct Square&amp;lt;&amp;#39;a&amp;gt; { point: &amp;amp;&amp;#39;a Point, size: &amp;amp;&amp;#39;a Size } struct Size { width: i32, height: i32 } struct Point { x: i32, y: i32 } impl&amp;lt;&amp;#39;a&amp;gt; Square&amp;lt;&amp;#39;a&amp;gt; { fn new(x: i32, y:i32, width:i32, height: i32) -&amp;gt; Self { let size = &amp;amp;Size { width, height }; let point = &amp;amp;Point { x, y }; Square { point, size } } } fn main() { Square::new(10, 10, 10, 10); } 上記のコードをコンパイルしようとすると以下のエラーが出ます。</description>
+    </item>
+    
+    <item>
+      <title>memo</title>
+      <link>http://ymizushi.github.io/tech-memo/2020-06-03-memo/</link>
+      <pubDate>Wed, 03 Jun 2020 11:52:49 +0900</pubDate>
+      
+      <guid>http://ymizushi.github.io/tech-memo/2020-06-03-memo/</guid>
+      <description>やったこと  https://github.com/ymizushi/vim-hugo hugoのvimプラグインをフォークしてカスタマイズした  ベースとなったプラグインは VimScript で記述されており、VimからHugo の Markdown を生成することができる 元のプラグインでは、同じファイル名でも、重複して生成したコンテントが追記されてしまう問題があったため、フォークした方ではそうならないようにした 以前書いたVimPluginはPythonで記述されていたが、今回 VimScriptをいじったことで、VimScriptでの Plugin作成も問題なくいけそうな感触を得られた   cargo watch の仕組みを調べた  </description>
+    </item>
     
     <item>
       <title>Memo 20200525</title>
@@ -17,12 +53,7 @@
       <pubDate>Mon, 25 May 2020 16:25:54 +0900</pubDate>
       
       <guid>http://ymizushi.github.io/tech-memo/memo-20200525/</guid>
-<<<<<<< HEAD
-      <description>やったこと  denite.nvim の不具合を解消  Desktop は正常動作するが Laptop の Denite が正常動作しなかった  pluginを起動するとハングする   原因を追っていくと、Pluginのバージョンが古いことがわかったのでキャッシュをクリアして、再インストールすることで解決   Rust 99 Problem の P01,P02を解いた  理解したこと 理解していないこと       </description>
-=======
-      <description>やったこと  denite.nvim の不具合を解消  Desktop は正常動作するが Laptop の Denite が正常動作しなかった  pluginを起動するとハングする   原因を追っていくと、Pluginのバージョンが古いことがわかったのでキャッシュをクリアして、再インストールすることで解決    理解したこと 理解していないこと   Rust で Either モナドを作る話 https://qiita.com/morikuni/items/8bdb39119379d60f628c
-   </description>
->>>>>>> 6238535dfb8cee3dda69dbb0f84faa62897fc63d
+      <description>やったこと  denite.nvim の不具合を解消  Desktop は正常動作するが Laptop の Denite が正常動作しなかった  pluginを起動するとハングする   原因を追っていくと、Pluginのバージョンが古いことがわかったのでキャッシュをクリアして、再インストールすることで解決   https://doc.rust-jp.rs/book/second-edition/ 13章,14章を読んだ  そろそろRustで何を作るか考える必要がある   Rust 99 Problem の P01,P02を解いた  理解したこと  https://doc.rust-jp.rs/book/second-edition/ch13-01-closures.html  FnOnce と Fn の違い https://qiita.com/shortheron/items/c1735dc4c7c78b0b55e9  Fn は FnMutを継承 FnMut が FnOnce を継承 Fn &amp;lt; FnMut &amp;lt; FnOnce Fn, FnMut, FnOne trait が クロージャ構造体に実装されるかは、クロージャの内部実装による  FnOnceは必ず実装されている キャプチャした変数をMoveしないクロージャは FnMut も実装している 不変で借用している場合は、Fnが実装される   moveは環境からクロージャへの所有権の移動を強制する FnOnceのみ実装されるのはクロージャから外部の関数等への所有権の移動があるとき つまり、クロージャという箱の外から中へ所有権の移動を明記するのがmove, 箱の中から外へ所有権の移動があるときにのみ FnOnceが実装される let y = 1; fn = move |x| { x + y } は FnOnce を実装      let y = 1; fn = |x| { x + y } は FnOnce を実装</description>
     </item>
     
     <item>

@@ -3,12 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://ymizushi.github.io/tech-memo/memo-20200525/</loc>
-    <lastmod>2020-05-25T16:25:54+09:00</lastmod>
+    <loc>http://ymizushi.github.io/tech-memo/2020-06-14-memo/</loc>
+    <lastmod>2020-06-14T11:47:44+09:00</lastmod>
   </url>
   
   <url>
     <loc>http://ymizushi.github.io/tech-memo/</loc>
+    <lastmod>2020-06-14T11:47:44+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ymizushi.github.io/tech-memo/2020-06-07-rust-anti-coding-pattern/</loc>
+    <lastmod>2020-06-07T03:22:26+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ymizushi.github.io/tech-memo/2020-06-03-memo/</loc>
+    <lastmod>2020-06-03T11:52:49+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ymizushi.github.io/tech-memo/memo-20200525/</loc>
     <lastmod>2020-05-25T16:25:54+09:00</lastmod>
   </url>
   
